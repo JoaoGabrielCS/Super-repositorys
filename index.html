@@ -4,28 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Redirecionamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: calc(20% - 20px);
+            max-width: 200px;
+            text-align: center;
+        }
+
+        .card button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
-    <form id="formulario">
-        <div>
-            <h3>Peso 1: </h3><input type="number" id="peso1" required><br>
-            <h3>Peso 2: </h3><input type="number" id="peso2" required><br>
-            <h3>Peso 3: </h3><input type="number" id="peso3" required><br>
-        </div>
-        <div>
-            <h3>Nota 1: </h3><input type="number" id="nota1" required><br>
-            <h3>Nota 2: </h3><input type="number" id="nota2" required><br>
-            <h3>Nota 3: </h3><input type="number" id="nota3" required><br>
-        </div>
-        <button type="submit">Calcular</button>
-    </form>
+    <div class="card">
+        <button onclick="window.location.href = 'tarefa1.html';">Botão 1</button>
+    </div>
+    <div class="card">
+        <button onclick="window.location.href = 'tarefa1.html';">Botão 2</button>
+    </div>
+    <div class="card">
+        <button onclick="window.location.href = 'tarefa1.html';">Botão 3</button>
+    </div>
+    <div class="card">
+        <button onclick="window.location.href = 'tarefa1.html';">Botão 4</button>
+    </div>
+    <div class="card">
+        <button onclick="window.location.href = 'tarefa1.html';">Botão 5</button>
+    </div>
 
-    <h3>Resultado: </h3><input type="text" id="resultado" readonly>
+    
 
-    <script src="TRABAJOS-GURI.js"></script>
 </body>
 
 </html>
